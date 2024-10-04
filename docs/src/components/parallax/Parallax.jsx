@@ -33,7 +33,7 @@ const Parallax = () => {
         className="planets"
         style={{
           y: yBg,
-          backgroundImage: `url("/sun.png")`,
+          backgroundImage: `url("${import.meta.env.BASE_URL}sun.png")`,
         }}
       ></motion.div>
       <motion.div style={{ x: yBg }} className="stars"></motion.div>
