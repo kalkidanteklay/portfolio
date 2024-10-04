@@ -6,7 +6,7 @@ const items = [
   {
     id: 1,
     title: "Pet Adoption",
-    img: "/pet.jpg",
+    img: `${import.meta.env.BASE_URL}pet.jpg`,
     desc: "This is a flutter project that aims to facilitate the adoption application process for both users looking to adopt pets and administrators managing pet listings. It includes features such as authentication, authorization.",
   },
   {

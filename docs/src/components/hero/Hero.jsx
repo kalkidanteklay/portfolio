@@ -74,7 +74,7 @@ const Hero = () => {
         React Html CSS Javascript
       </motion.div>
       <div className="imageContainer">
-        <img src="/portfolio.jpg" alt="" />
+        <img src={`${import.meta.env.BASE_URL}portfolio.jpg`} alt="" />
       </div>
     </div>
   );
