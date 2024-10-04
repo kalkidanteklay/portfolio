@@ -8,12 +8,14 @@ const items = [
     title: "Pet Adoption",
     img: `${import.meta.env.BASE_URL}pet.jpg`,
     desc: "This is a flutter project that aims to facilitate the adoption application process for both users looking to adopt pets and administrators managing pet listings. It includes features such as authentication, authorization.",
+    link: "https://github.com/kalkidanteklay/flutter-2024-proj",
   },
   {
     id: 2,
     title: "job searching website",
     img: "https://images.pexels.com/photos/18023772/pexels-photo-18023772/free-photo-of-close-up-of-a-person-holding-a-wristwatch.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
     desc: "This is a website that seeks to close the gap between employers looking to hire and students looking for a job.",
+    link: "https://github.com/kalkidanteklay/jobportal",
   },
   {
     id: 3,
@@ -51,11 +53,13 @@ const Single = ({ item }) => {
             <p>{item.desc}</p>
             {item.link ? (
               <a href={item.link} target="_blank" rel="noopener noreferrer">
-                <button>Visit GitHub</button>
+                <button>
+                  {item.id === 3 ? "Go To GitHub" : "View Project"}
+                </button>
               </a>
-           ) : (
-            <button>See Demo</button>
-          )}
+            ) : (
+              <button>{item.id === 3 ? "Go To GitHub" : "View Project"}</button>
+            )}
           </motion.div>
         </div>
       </div>
