@@ -9,8 +9,8 @@
   justify-content: center;
   overflow: hidden;
 
-  h1 {
-    font-size: 100px;
+  h3 {
+    font-size: 30px;
 
     @include mobile {
       font-size: 72px;
@@ -18,6 +18,7 @@
     }
   }
   .paragraphContainer {
+    margin-bottom: 11%;;
     max-width: 800px;
     text-align: center;
     color: white;
@@ -26,6 +27,10 @@
     padding: 20px;
     background: rgba(0, 0, 0, 0.5); 
     border-radius: 10px;
+  }
+
+  .paragraphContainer p{
+    padding: 5px;
   }
 
 
@@ -44,6 +49,7 @@
     }
   }
   .planets {
+    background-color: transparent;
     background-size: cover;
     background-position: bottom;
     width: 100%;

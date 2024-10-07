@@ -23,6 +23,7 @@ const Parallax = () => {
     >
       {/* Paragraph to be displayed in the middle */}
       <motion.div className="paragraphContainer" style={{ y: yText }}>
+        <h3>About me</h3>
         <p>
           My name is Kalkidan T/haimanot, and I am a 4th-year Software Engineering student at AAiT. I specialize in developing both websites and mobile applications, with proficiency in Python, JavaScript, HTML, CSS, and React.
         </p>
