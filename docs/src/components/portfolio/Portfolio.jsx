@@ -22,7 +22,7 @@ const items = [
     //title: "And many more..",
     img: "https://images.pexels.com/photos/6894528/pexels-photo-6894528.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
     desc: "And many more.. check out my github page!",
-    link: "https://github.com/kalkidanteklay",
+    link: "https://github.com/kalkidan-teklay",
   },
   // {
   //   id: 4,
