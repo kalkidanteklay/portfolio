@@ -20,8 +20,11 @@ const Cursor = () => {
   return (
     <motion.div
       className="cursor"
-      animate={{ x: position.x+10, y: position.y+10 }}
-    ></motion.div>
+      animate={{ x: position.x, y: position.y }} // Keep the cursor centered on mouse
+      transition={{ type: "spring", stiffness: 500, damping: 30 }} // Add spring effect
+    >
+      <div className="fire-effect"></div>
+    </motion.div>
   );
 };
 
